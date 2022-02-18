@@ -1,0 +1,166 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.tong {
+  width: 100%;
+  margin: auto;
+  color: white;
+}
+.header {
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+}
+.header img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+.menu ul li a:hover {
+  color: blue;
+}
+.menu {
+  width: 80%;
+  height: 50px;
+  background-color: black;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 1px solid #fff;
+}
+
+.menu > ul > li > ul {
+  display: inline-block;
+} 
+.sanpham:hover .nav {
+  display: block;
+} 
+.menu > ul > li {
+  display: inline-block;
+}
+.menu .nav {
+  display: none;
+  background: black;
+  position: absolute;
+}
+ul {
+  list-style-type: none;
+  margin-top: 15px;
+}
+.menu ul li a {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-family: roboto;
+  font-size: 17px;
+}
+.left {
+  width: 20%;
+  height: 500px;
+  background-color: rgb(146, 46, 141);
+  float: left;
+  margin-left: 10%;
+  margin-bottom: 10px;
+}
+.left img {
+  width: 100%;
+  height: 500px;
+  padding: auto;
+}
+
+/* .content {
+  width: calc(60%-10px);
+  height: 500px;
+  background-color: white;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+} */
+.content p {
+  color: black;
+  text-align: center;
+}
+
+.content img {
+  width: 100%;
+  height: 100px;
+}
+.footer img {
+  width: 100%;
+  height: 150px;
+  
+}
+
+.footer {
+  width: 100%;
+  height: 120px;
+  background-color: black;
+  clear: both;
+  color: white;
+  text-align: center;
+}
+nav .search {
+  margin-right: 200px;
+  float: right;
+  margin-top: -45px;
+}
+.anhgiay {
+  display: inline-block;
+  width: 90%;
+}
+.anhgiay .anh {
+  display: inline-block;
+  padding: 0px 15px 20px 15px;  
+  vertical-align: top;
+}
+.anhgiay img{
+  width: 195px;
+  height: 195px;
+}
+.anhgiay2 {
+  display: inline-block;
+  width: 90%;
+}
+.anhgiay2 .anh {
+  display: inline-block;
+  padding: 0px 15px 20px 15px;  
+  vertical-align: top;
+}
+.anhgiay2 img{
+  width: 195px;
+  height: 195px;
+}
+.content img:hover{
+    -webkit-transform:scale(0.8); /*Webkit: Thu nhỏ kích thước ảnh còn 0.8 so với ảnh gốc*/
+    -moz-transform:scale(0.8); /*Thu nhỏ đối với Mozilla*/
+    -o-transform:scale(0.8); /*Thu nhỏ đối với Opera*/
+    -webkit-transition-duration: 1s; /*Webkit: Thời gian phóng to, nhỏ ảnh*/
+    -moz-transition-duration: 1s; /*Như trên*/
+    -o-transition-duration: 1s; /*Như trên*/
+    opacity: 1; /*Độ mờ của hình ảnh*/
+    margin: 0 10px 5px 0; /*căn đều giữa ảnh*/
+   background-color: #778899;
+    }
+.content img:hover{
+    -webkit-transform:scale(1.1); /*Webkit: Tăng kích cỡ ảnh lên 1.1 lần*/
+    -moz-transform:scale(1.1); 
+    -o-transform:scale(1.1); 
+    box-shadow:0px 0px 30px rgb(188, 189, 199); /*Đổ bóng bằng CSS3*/
+    -webkit-box-shadow:0px 0px 30px rgb(188, 189, 199);
+    -moz-box-shadow:0px 0px 30px rgb(188, 189, 199); 
+    opacity: 1; /*Độ mờ của hình ảnh*/
+    background-color: #778899;
+}
+.icon img{
+  width: 30px ;
+  height: 30px ;
+  border-radius: 10px;
+  
+}
+.giohang{
+  background-color: black;
+  text-align: center;
+}

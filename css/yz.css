@@ -1,0 +1,12 @@
+.img {
+  text-align: center;
+}
+
+img {
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+}
+.giayyz{
+    display: flex;
+}
